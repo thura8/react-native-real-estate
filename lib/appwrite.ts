@@ -13,7 +13,7 @@ export const client = new Client();
 client
   .setEndpoint(config.endpoint!)
   .setProject(config.projectId!)
-  .setPlatform(config.platform);
+  .setPlatform(config.platform!);
 
 export const avatar = new Avatars(client);
 export const account = new Account(client);
@@ -21,6 +21,7 @@ export const account = new Account(client);
 export async function login() {
   try {
     const redirectUri = Linking.createURL("/");
+    console.log("Redirect URI:", redirectUri);
 
     const response = await account.createOAuth2Token(
       OAuthProvider.Google,

@@ -7,7 +7,7 @@
     "icon": "./assets/images/icon.png",
     "scheme": "reactnativeestate",
     "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
+    "newArchEnabled": false,
     "ios": {
       "supportsTablet": true
     },
