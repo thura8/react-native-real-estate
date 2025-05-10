@@ -17,7 +17,7 @@ const SignIn = () => {
     const result = await login();
 
     if (result) {
-      console.log(result);
+      console.log("Logged in");
     } else {
       Alert.alert("Error", "Failed to login");
     }

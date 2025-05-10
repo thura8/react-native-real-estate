@@ -5,7 +5,7 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "reactnativeestate",
+    "scheme": "com.bigboss.restate",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": false,
     "ios": {
@@ -16,7 +16,8 @@
         "foregroundImage": "./assets/images/icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.bigboss.restate"
     },
     "web": {
       "bundler": "metro",
