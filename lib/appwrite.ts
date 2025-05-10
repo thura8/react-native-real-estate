@@ -19,7 +19,7 @@ export const account = new Account(client);
 
 export async function login() {
   try {
-    const redirectUri = `${config.platform}://oauth2redirect`;
+    const redirectUri = `${config.platform}`;
     console.log("Redirect URI:", redirectUri);
 
     const response = await account.createOAuth2Token(
